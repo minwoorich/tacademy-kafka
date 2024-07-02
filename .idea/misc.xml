@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/kafka-consumer-auto-commit" />
+    <file type="web" url="file://$PROJECT_DIR$/kafka-consumer-multi-thread" />
+    <file type="web" url="file://$PROJECT_DIR$/kafka-consumer-save-metric" />
+    <file type="web" url="file://$PROJECT_DIR$/kafka-consumer-sync-commit" />
+    <file type="web" url="file://$PROJECT_DIR$/kafka-producer-exact-partition" />
+    <file type="web" url="file://$PROJECT_DIR$/kafka-producer-key-value" />
+    <file type="web" url="file://$PROJECT_DIR$/simple-kafka-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/simple-kafka-producer" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
